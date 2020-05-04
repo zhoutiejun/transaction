@@ -1,0 +1,23 @@
+server:
+  port: 8088
+
+spring:
+  freemarker:
+    request-context-attribute: req
+    suffix: .html
+    content-type: text/html
+    enabled: true
+    cache: false
+    charset: UTF-8
+    expose-request-attributes: true
+    expose-session-attributes: true
+    settings:
+      number_format: '0.##'
+  datasource:
+    name: test
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://cdb-2m498nqi.bj.tencentcdb.com:10054/transaction?characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+    username: xuanhui
+    password: XUge123456
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
