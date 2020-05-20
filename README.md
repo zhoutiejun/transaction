@@ -3,4 +3,4 @@
 
 #简单的springboot+freemaker.
 
-#主要里面带一段python预测股票的脚本
+#python调用tushu官网api获取数据然后预测股票的脚本算法
